@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="shortcut icon" href="images/clouds.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="card">
+        <div class="navigator">
+            <input type="text" placeholder="enter city name" id="cityName">
+            <button class="searchBtn"><img src="images/search.png" class="img"></button>
+        </div>
+        <div class="main">
+            <div class="main2">
+                <img src="images/clouds.png" class="weatherImg weatherpng">
+                <h1 class="weatherTemp">0°C</h1>
+                <h2 class="weatherCity">-------</h2>
+            </div>
+            <div class="weatherDetails">
+                <div class="humidity">
+                    <img src="images/humidity.png">
+                    <div class="humidityDeatails">
+                        <h2 id="hmlevel">0%</h1>
+                            <h4>humidity</h3>
+                    </div>
+                </div>
+                <div class="WindDetails">
+                    <img src="images/wind.png">
+                    <div class="humidityDeatails">
+                        <h2 id="speed">0Km / h</h1>
+                            <h4>Wind Speed</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</body>
+<script src="script.js"></script>
+
+</html>

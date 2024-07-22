@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: #222; */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+
+
+}
+
+.card {
+    background-color: #fff;
+    width: 25vw;
+    border-radius: 30px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #755ddf, #d52323);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
+
+.main {
+    width: 25vw;
+    margin-bottom: 2vh;
+    display: none;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.navigator {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: 3vh;
+
+}
+
+
+.navigator input {
+    width: 85%;
+    height: 110%;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    border: none;
+}
+
+.navigator button {
+    border-radius: 50%;
+    width: 12%;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+}
+
+.weatherTemp {
+    color: white;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: sans-serif;
+
+}
+
+.weatherCity {
+    color: white;
+    font-size: 2.5vw;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding-top: 1.8vh;
+    padding-bottom: 1.8vh;
+}
+
+.img {
+    height: 60%;
+    width: 60%;
+}
+
+.humidity {
+    display: flex;
+}
+
+.humidity img {
+    height: 5.5vh;
+}
+
+.humidityDeatails {
+    padding-left: 20px;
+}
+
+.weatherDetails {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 5px solid black; */
+    height: 10vh;
+    width: 100%;
+    color: white;
+}
+
+.WindDetails {
+    display: flex;
+    font-weight: 900;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-size: 1vw;
+}
+
+h2 {
+    font-weight: 200;
+    text-transform: capitalize;
+    font-size: 1.6vw;
+}
+
+.weatherImg {
+    margin: 5%;
+    height: 25%;
+    width: 35%;
+}
+
+.WindDetails img {
+    height: 5.5vh;
+}
+
+.weatherDetails img {
+    width: 50px;
+    font-weight: 900;
+}
